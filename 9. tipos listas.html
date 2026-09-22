@@ -1,0 +1,82 @@
+<!DOCTYPE html> <!-- define el documento como uno html-->
+<html lang="en"> <!-- el idioma que detectara el navegador-->
+<head> <!--Abre el cuadro de la cabeza de la pagina -->
+    <meta charset="UTF-8"> <!--para poder usar acento y las ñ -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Para que la pagina se acomode bien en celulares -->
+    <title>Tipos de listas en HTML</title> <!-- El nombre que saldra en la pestaña -->
+</head> <!-- Cierra la cabeza de la pagina -->
+<body> <!-- abre el cuerpo de la pagina -->
+    <h1>Tipos de listas</h1> <!-- un titulo muy grande-->
+    <h2>Listas ordenadas</h2> <!-- un titulo algo menos grande-->
+    <p>Una lista ordenada es una serie de elementos los cuales 
+        tendran una numeracion de acuerdo al numeros de elementos.
+    </p> <!-- un parrafo-->
+    <ol> <!-- crea una lista ordenada-->
+        <li>Luna Arias </li> <!-- un elemento de la lista-->
+        <li>Franco Andrea</li> <!-- un elemento de la lista-->
+        <li>Granados Evelyn</li> <!-- un elemento de la lista-->
+    </ol> <!-- cierra la lista ordenada-->
+    <h2>Listas no ordenadas</h2> <!-- un titulo algo menos grande-->
+    <p>Las listas no ordenadas no utilizan ninguna numeracion delante 
+        de cada item sino un pequeño elemento grafico
+    </p> <!-- un parrafo-->
+    <ul> <!-- crea una lista no ordenada-->
+        <li>C</li> <!-- un elemento de la lista-->
+        <li>C++</li> <!-- un elemento de la lista-->
+        <li>Python</li> <!-- un elemento de la lista-->
+    </ul> <!-- cierra lista no ordenada-->
+    <h2>Lista de definiciones</h2> <!-- un titulo algo menos grande-->
+    <p>Se utiliza para asociar un termino y la definicion del mismo</p> <!-- un parrafo-->
+    <dl> <!--abre todo el conjunto de la lista -->
+        <!-- Primer termino-->
+        <dt>C++</dt>
+        <!-- Definicion del primer termino-->
+        <dd>
+            Es un lenguaje de programacion, diseñado a mediados de los años
+            1980 como extension del lenguaje de programacion C.
+        </dd>
+        <!-- Segundo termino-->
+        <dt>Java</dt>
+        <!-- Definicion del segundo termino-->
+        <dd>
+            Es un lenguaje de programacion orientado a objetos desarrollado
+            por Sun Microsystem a principios de los 90.
+        </dd>
+        <!-- Tercer termino-->
+        <dt>JavaScript</dt>
+        <!-- Definicion del tercer termino-->
+        <dd>
+            Es un lenguaje interpretado, es decir que no requiere compilacion,
+            utilizado principalmente en paginas web, con una sintaxis similar
+            al lenguaje de programacion C.
+        </dd>
+    </dl> <!--cierra todo el conjunto de la lista -->
+    <h2>Listas anidadas</h2> <!-- un titulo algo menos grande-->
+    <p>En HTML nos permite insertar una lista dentro de otra lista, se pueden
+        anidar diferentes tipos de lista de acuerdo al requerimiento
+    </p> <!-- un parrafo-->
+    <ol> <!-- crea una lista ordenada-->
+        <li>Argentina <!-- abre un elemento de la lista-->
+            <ul> <!-- crea una lista no ordenada-->
+                <li>Buenos aires</li> <!-- un elemento de la lista-->
+                <li>La plata</li> <!-- un elemento de la lista-->
+                <li>Mendoza</li> <!-- un elemento de la lista-->
+            </ul> <!-- cierra lista no ordenada-->
+        </li> <!-- cierra un elemento de la lista-->
+        <li>España <!-- abre un elemento de la lista-->
+            <ul> <!-- crea una lista no ordenada-->
+                <li>Barcelona</li> <!-- un elemento de la lista-->
+                <li>Madrid</li> <!-- un elemento de la lista-->
+                <li>Sevilla</li> <!-- un elemento de la lista-->
+            </ul> <!-- cierra lista no ordenada-->
+        </li> <!-- cierra un elemento de la lista-->
+        <li>Mexico <!-- abre un elemento de la lista-->
+            <ul> <!-- crea una lista no ordenada-->
+                <li>Chihuahua</li> <!-- un elemento de la lista-->
+                <li>Cd. Juarez</li> <!-- un elemento de la lista-->
+                <li>Hermosillo</li> <!-- un elemento de la lista-->
+            </ul> <!-- cierra lista no ordenada-->
+        </li> <!-- cierra un elemento de la lista-->
+    </ol> <!-- cierra la lista ordenada-->
+</body> <!-- cierra el cuerpo de la pagina-->
+</html> <!-- cierra el documento html-->
