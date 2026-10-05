@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formularios en HTML</title>
+
+</head>
+<body>
+	<h2>Formulario con limitaciones</h2>
+	<form action="" method="post">
+	<!--Form: inicia el formulario. action: envia los datos a donde se le indique. method="post": envia los datos de forma oculta-->
+	Ingresa tu nombre:
+	<input type="text" name="nombre" disabled><br>
+	<!-- Desahbilitacion de campo -->
+	Contraseña:
+	<input type="password" name="pass" maxlength="5"><br>
+	<!-- Limitacion de caracteres -->
+	Comentarios:
+	<textarea name="comentarios" readonly>
+	<!-- Solo lectura -->
+
+	Este es mi comentario y no se puede borrar
+	</textarea><br>
+</form>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formularios en HTML</title>
+
+</head>
+<body>
+	<h2>Formularios con agrupamiento</h2>
+	<form action="" method="post">
+	<!--Form: inicia el formulario. action: envia los datos a donde se le indique. method="post": envia los datos de forma oculta-->
+	<fieldset>
+	<!--crea un cuadro para agupar las opciones del formulario-->
+	<legend>Datos personales</legend>
+	Nombre y apellido:
+	<input type="text" name="nombre_apellido"><br>
+	<!--input type="text": es para crear el campo a rellenar. name: es como se reconocera el dato-->
+	Documento valido:
+	<input type="file" name="documento"><br>
+	<!--input type="file": crea un boton para buscar archivos. name: es como se reconocera el dato-->
+	Fecha de nacimiento:
+	<input type="date" name="fecha_nacimiento">
+	<!--input type="date": crea un boton para ingresar una fecha. name: es como se reconocera el dato-->
+	</fieldset>
+	<!--cierra el cuadro -->
+	<fieldset>
+	<!--crea un cuadro para agupar las opciones del formulario-->
+	<legend>Datos de estudio:</legend>
+	Nombre de la escuela:
+	<input type="text" name="escuela"><br>
+	<!--input type="text": es para crear el campo a rellenar. name: es como se reconocera el dato-->
+	Certificado valido:
+	<input type="file" name="certificado"><br>
+	<!--input type="file": crea un boton para buscar archivos. name: es como se reconocera el dato-->
+	Fecha de egreso:
+	<input type="date" name="fecha_egreso">
+	<!--input type="date": crea un boton para ingresar una fecha. name: es como se reconocera el dato-->
+	</fieldset>
+	<!--cierra el cuadro -->
+	<br>
+	<button type="submit">Enviar <i class="fa-regular fa-paper-plane"></i> </button>
+	<!--button: crea el boton. type="submit": es crear un boton de envio. i class="fa-regular fa-paper-plane": un dibujo o icono-->
+	<button type="reset">Borrar <i class="fa fa-trash"></i></button>
+	<!--button: crea el boton. type="submit": es crear un boton de envio. i class="fa fa-trash": un dibujo o icono-->
+	</form>
+	<!--cierra el formulario-->
+</body>
+</html>
